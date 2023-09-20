@@ -1,2 +1,0 @@
-All.NET classes are derived from Object and every method that is defined in the Object class is available in all the objects in the system. Derived classes can do override some of these methods,
-including Equals - Supports comparisons between objects.
