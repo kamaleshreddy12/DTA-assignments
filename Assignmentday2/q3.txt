@@ -1,0 +1,13 @@
+yes ,
+
+try{
+}
+catch(DivideByZeroException e)
+{
+}
+catch(ArrayOutOfBoundException e)
+{
+}
+catch(Exception e)
+{
+}

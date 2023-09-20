@@ -1,0 +1,12 @@
+static void Main(string[] args)
+{
+    StreamReader sr = new StreamReader(@"C:\Users\kamalesh\code.txt");
+
+    while (sr.EndOfStream==false)
+    {
+        Console.WriteLine(sr.ReadLine());
+    }
+    Console.ReadLine();
+    sr.Close();
+
+}

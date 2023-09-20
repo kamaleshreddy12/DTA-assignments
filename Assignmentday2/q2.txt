@@ -1,0 +1,8 @@
+FileInfo FInfo = new FileInfo(@"C:\Users\kamalesh\code.txt");
+Console.WriteLine("My File's Name: \"" + FInfo.Name + "\"");
+DateTime dtCreationTime = FInfo.CreationTime;
+Console.WriteLine("Date and Time File Created: " + dtCreationTime.ToString());
+Console.WriteLine("myFile Extension: " + FInfo.Extension);
+Console.WriteLine("myFile total Size: " + FInfo.Length.ToString());
+Console.WriteLine("myFile filepath: " + FInfo.DirectoryName);
+Console.WriteLine("My File's Full Name: \"" + FInfo.FullName + "\"");
